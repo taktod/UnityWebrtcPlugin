@@ -25,7 +25,8 @@
 		546DD43920F06A5F006DACB8 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 546DD43820F06A5F006DACB8 /* CoreMedia.framework */; };
 		546DD43B20F06A67006DACB8 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 546DD43A20F06A67006DACB8 /* CoreVideo.framework */; };
 		546DD44120F081A7006DACB8 /* TakPeerConnectionFactory.mm in Sources */ = {isa = PBXBuildFile; fileRef = 546DD43F20F081A7006DACB8 /* TakPeerConnectionFactory.mm */; };
-		546DD44420F083ED006DACB8 /* TakIceServer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 546DD44220F083ED006DACB8 /* TakIceServer.cpp */; };
+		546DD44420F083ED006DACB8 /* TakIceServer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 546DD44220F083ED006DACB8 /* TakIceServer.mm */; };
+		546DD44720F085C1006DACB8 /* TakConstraint.mm in Sources */ = {isa = PBXBuildFile; fileRef = 546DD44520F085C1006DACB8 /* TakConstraint.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,8 +52,10 @@
 		546DD43A20F06A67006DACB8 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 		546DD43F20F081A7006DACB8 /* TakPeerConnectionFactory.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = TakPeerConnectionFactory.mm; sourceTree = "<group>"; };
 		546DD44020F081A7006DACB8 /* TakPeerConnectionFactory.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TakPeerConnectionFactory.hpp; sourceTree = "<group>"; };
-		546DD44220F083ED006DACB8 /* TakIceServer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TakIceServer.cpp; sourceTree = "<group>"; };
+		546DD44220F083ED006DACB8 /* TakIceServer.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = TakIceServer.mm; sourceTree = "<group>"; };
 		546DD44320F083ED006DACB8 /* TakIceServer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TakIceServer.hpp; sourceTree = "<group>"; };
+		546DD44520F085C1006DACB8 /* TakConstraint.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = TakConstraint.mm; sourceTree = "<group>"; };
+		546DD44620F085C1006DACB8 /* TakConstraint.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TakConstraint.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,8 +115,10 @@
 				546DD41920F06381006DACB8 /* Entry.hpp */,
 				546DD43F20F081A7006DACB8 /* TakPeerConnectionFactory.mm */,
 				546DD44020F081A7006DACB8 /* TakPeerConnectionFactory.hpp */,
-				546DD44220F083ED006DACB8 /* TakIceServer.cpp */,
+				546DD44220F083ED006DACB8 /* TakIceServer.mm */,
 				546DD44320F083ED006DACB8 /* TakIceServer.hpp */,
+				546DD44520F085C1006DACB8 /* TakConstraint.mm */,
+				546DD44620F085C1006DACB8 /* TakConstraint.hpp */,
 			);
 			path = UnityWebrtcPlugin;
 			sourceTree = "<group>";
@@ -202,9 +207,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				546DD44420F083ED006DACB8 /* TakIceServer.cpp in Sources */,
+				546DD44420F083ED006DACB8 /* TakIceServer.mm in Sources */,
 				546DD41A20F06381006DACB8 /* Entry.mm in Sources */,
 				546DD44120F081A7006DACB8 /* TakPeerConnectionFactory.mm in Sources */,
+				546DD44720F085C1006DACB8 /* TakConstraint.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
