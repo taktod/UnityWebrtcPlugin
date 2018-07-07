@@ -53,6 +53,10 @@ extern "C" {
         TakPeerConnection *conn = new TakPeerConnection(_factory, &lps, 1);
         conn->onIceCandidate = [](const IceCandidateInterface *candidate) {
             // candidateの応答
+            cout << "candidateができてる" << endl;
+            string str;
+            candidate->ToString(&str);
+            cout << str << endl;
         };
         TakConstraint constraint;
         constraint.AddMandatory("OfferToReceiveAudio", "true");
