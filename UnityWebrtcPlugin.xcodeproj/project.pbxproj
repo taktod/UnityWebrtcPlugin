@@ -24,6 +24,7 @@
 		546DD43720F06A59006DACB8 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 546DD43620F06A59006DACB8 /* AVFoundation.framework */; };
 		546DD43920F06A5F006DACB8 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 546DD43820F06A5F006DACB8 /* CoreMedia.framework */; };
 		546DD43B20F06A67006DACB8 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 546DD43A20F06A67006DACB8 /* CoreVideo.framework */; };
+		546DD44120F081A7006DACB8 /* TakPeerConnectionFactory.mm in Sources */ = {isa = PBXBuildFile; fileRef = 546DD43F20F081A7006DACB8 /* TakPeerConnectionFactory.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,8 @@
 		546DD43620F06A59006DACB8 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		546DD43820F06A5F006DACB8 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		546DD43A20F06A67006DACB8 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		546DD43F20F081A7006DACB8 /* TakPeerConnectionFactory.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = TakPeerConnectionFactory.mm; sourceTree = "<group>"; };
+		546DD44020F081A7006DACB8 /* TakPeerConnectionFactory.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TakPeerConnectionFactory.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +107,8 @@
 				546DD40D20F0626E006DACB8 /* Info.plist */,
 				546DD41820F06381006DACB8 /* Entry.mm */,
 				546DD41920F06381006DACB8 /* Entry.hpp */,
+				546DD43F20F081A7006DACB8 /* TakPeerConnectionFactory.mm */,
+				546DD44020F081A7006DACB8 /* TakPeerConnectionFactory.hpp */,
 			);
 			path = UnityWebrtcPlugin;
 			sourceTree = "<group>";
@@ -193,6 +198,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				546DD41A20F06381006DACB8 /* Entry.mm in Sources */,
+				546DD44120F081A7006DACB8 /* TakPeerConnectionFactory.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,6 +9,7 @@
 #include "Entry.hpp"
 #include <iostream>
 #import <Foundation/Foundation.h>
+#include "TakPeerConnectionFactory.hpp"
 
 using namespace std;
 
@@ -17,15 +18,18 @@ using namespace takWebrtc;
 namespace takWebrtc {
     rtc::Thread _signalingThread;
     rtc::Thread _workerThread;
+    TakPeerConnectionFactory *_factory;
 }
 
 void TakWebrtc::initialize() {
     rtc::InitializeSSL();
     _signalingThread.Start();
     _workerThread.Start();
+    _factory = new TakPeerConnectionFactory();
 }
 
 void TakWebrtc::terminate() {
+    delete _factory;
     _signalingThread.Stop();
     _workerThread.Stop();
     rtc::CleanupSSL();
