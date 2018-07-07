@@ -27,6 +27,7 @@
 		546DD44120F081A7006DACB8 /* TakPeerConnectionFactory.mm in Sources */ = {isa = PBXBuildFile; fileRef = 546DD43F20F081A7006DACB8 /* TakPeerConnectionFactory.mm */; };
 		546DD44420F083ED006DACB8 /* TakIceServer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 546DD44220F083ED006DACB8 /* TakIceServer.mm */; };
 		546DD44720F085C1006DACB8 /* TakConstraint.mm in Sources */ = {isa = PBXBuildFile; fileRef = 546DD44520F085C1006DACB8 /* TakConstraint.mm */; };
+		546DD44D20F08E37006DACB8 /* TakMediaStream.mm in Sources */ = {isa = PBXBuildFile; fileRef = 546DD44B20F08E37006DACB8 /* TakMediaStream.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,8 @@
 		546DD44320F083ED006DACB8 /* TakIceServer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TakIceServer.hpp; sourceTree = "<group>"; };
 		546DD44520F085C1006DACB8 /* TakConstraint.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = TakConstraint.mm; sourceTree = "<group>"; };
 		546DD44620F085C1006DACB8 /* TakConstraint.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TakConstraint.hpp; sourceTree = "<group>"; };
+		546DD44B20F08E37006DACB8 /* TakMediaStream.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = TakMediaStream.mm; sourceTree = "<group>"; };
+		546DD44C20F08E37006DACB8 /* TakMediaStream.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TakMediaStream.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				546DD44320F083ED006DACB8 /* TakIceServer.hpp */,
 				546DD44520F085C1006DACB8 /* TakConstraint.mm */,
 				546DD44620F085C1006DACB8 /* TakConstraint.hpp */,
+				546DD44B20F08E37006DACB8 /* TakMediaStream.mm */,
+				546DD44C20F08E37006DACB8 /* TakMediaStream.hpp */,
 			);
 			path = UnityWebrtcPlugin;
 			sourceTree = "<group>";
@@ -210,6 +215,7 @@
 				546DD44420F083ED006DACB8 /* TakIceServer.mm in Sources */,
 				546DD41A20F06381006DACB8 /* Entry.mm in Sources */,
 				546DD44120F081A7006DACB8 /* TakPeerConnectionFactory.mm in Sources */,
+				546DD44D20F08E37006DACB8 /* TakMediaStream.mm in Sources */,
 				546DD44720F085C1006DACB8 /* TakConstraint.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
