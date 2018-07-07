@@ -9,6 +9,18 @@
 #ifndef Entry_hpp
 #define Entry_hpp
 
-#include <stdio.h>
+#include <iostream>
+#include <rtc_base/ssladapter.h>
+#include <rtc_base/scoped_ref_ptr.h>
+#include <rtc_base/ptr_util.h>
+#include <rtc_base/thread.h>
+
+namespace takWebrtc {
+    class TakWebrtc {
+    public:
+        static void initialize();
+        static void terminate();
+    };
+}
 
 #endif /* Entry_hpp */

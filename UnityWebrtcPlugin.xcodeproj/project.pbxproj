@@ -8,6 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		546DD41A20F06381006DACB8 /* Entry.mm in Sources */ = {isa = PBXBuildFile; fileRef = 546DD41820F06381006DACB8 /* Entry.mm */; };
+		546DD42020F069AA006DACB8 /* librtc_base_generic.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 546DD41B20F069A9006DACB8 /* librtc_base_generic.a */; };
+		546DD42120F069AA006DACB8 /* libwebrtc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 546DD41C20F069A9006DACB8 /* libwebrtc.a */; };
+		546DD42220F069AA006DACB8 /* libboringssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 546DD41D20F069A9006DACB8 /* libboringssl.a */; };
+		546DD42320F069AA006DACB8 /* libhogehoge.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 546DD41E20F069A9006DACB8 /* libhogehoge.a */; };
+		546DD42420F069AA006DACB8 /* librtc_base.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 546DD41F20F069A9006DACB8 /* librtc_base.a */; };
+		546DD42720F06A21006DACB8 /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 546DD42620F06A20006DACB8 /* Metal.framework */; };
+		546DD42920F06A27006DACB8 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 546DD42820F06A27006DACB8 /* OpenGL.framework */; };
+		546DD42B20F06A2D006DACB8 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 546DD42A20F06A2D006DACB8 /* Security.framework */; };
+		546DD42D20F06A33006DACB8 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 546DD42C20F06A33006DACB8 /* CFNetwork.framework */; };
+		546DD42F20F06A3A006DACB8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 546DD42E20F06A3A006DACB8 /* Foundation.framework */; };
+		546DD43120F06A43006DACB8 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 546DD43020F06A43006DACB8 /* CoreAudio.framework */; };
+		546DD43320F06A4B006DACB8 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 546DD43220F06A4B006DACB8 /* AudioToolbox.framework */; };
+		546DD43520F06A52006DACB8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 546DD43420F06A52006DACB8 /* CoreGraphics.framework */; };
+		546DD43720F06A59006DACB8 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 546DD43620F06A59006DACB8 /* AVFoundation.framework */; };
+		546DD43920F06A5F006DACB8 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 546DD43820F06A5F006DACB8 /* CoreMedia.framework */; };
+		546DD43B20F06A67006DACB8 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 546DD43A20F06A67006DACB8 /* CoreVideo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -15,6 +31,22 @@
 		546DD40D20F0626E006DACB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		546DD41820F06381006DACB8 /* Entry.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = Entry.mm; sourceTree = "<group>"; };
 		546DD41920F06381006DACB8 /* Entry.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Entry.hpp; sourceTree = "<group>"; };
+		546DD41B20F069A9006DACB8 /* librtc_base_generic.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = librtc_base_generic.a; sourceTree = "<group>"; };
+		546DD41C20F069A9006DACB8 /* libwebrtc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libwebrtc.a; sourceTree = "<group>"; };
+		546DD41D20F069A9006DACB8 /* libboringssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libboringssl.a; sourceTree = "<group>"; };
+		546DD41E20F069A9006DACB8 /* libhogehoge.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libhogehoge.a; sourceTree = "<group>"; };
+		546DD41F20F069A9006DACB8 /* librtc_base.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = librtc_base.a; sourceTree = "<group>"; };
+		546DD42620F06A20006DACB8 /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
+		546DD42820F06A27006DACB8 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		546DD42A20F06A2D006DACB8 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		546DD42C20F06A33006DACB8 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		546DD42E20F06A3A006DACB8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		546DD43020F06A43006DACB8 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		546DD43220F06A4B006DACB8 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		546DD43420F06A52006DACB8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		546DD43620F06A59006DACB8 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		546DD43820F06A5F006DACB8 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		546DD43A20F06A67006DACB8 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -22,6 +54,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				546DD43B20F06A67006DACB8 /* CoreVideo.framework in Frameworks */,
+				546DD43920F06A5F006DACB8 /* CoreMedia.framework in Frameworks */,
+				546DD43720F06A59006DACB8 /* AVFoundation.framework in Frameworks */,
+				546DD43520F06A52006DACB8 /* CoreGraphics.framework in Frameworks */,
+				546DD43320F06A4B006DACB8 /* AudioToolbox.framework in Frameworks */,
+				546DD43120F06A43006DACB8 /* CoreAudio.framework in Frameworks */,
+				546DD42F20F06A3A006DACB8 /* Foundation.framework in Frameworks */,
+				546DD42D20F06A33006DACB8 /* CFNetwork.framework in Frameworks */,
+				546DD42B20F06A2D006DACB8 /* Security.framework in Frameworks */,
+				546DD42920F06A27006DACB8 /* OpenGL.framework in Frameworks */,
+				546DD42720F06A21006DACB8 /* Metal.framework in Frameworks */,
+				546DD42420F069AA006DACB8 /* librtc_base.a in Frameworks */,
+				546DD42120F069AA006DACB8 /* libwebrtc.a in Frameworks */,
+				546DD42320F069AA006DACB8 /* libhogehoge.a in Frameworks */,
+				546DD42020F069AA006DACB8 /* librtc_base_generic.a in Frameworks */,
+				546DD42220F069AA006DACB8 /* libboringssl.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -31,8 +79,14 @@
 		546DD40120F0626E006DACB8 = {
 			isa = PBXGroup;
 			children = (
+				546DD41D20F069A9006DACB8 /* libboringssl.a */,
+				546DD41E20F069A9006DACB8 /* libhogehoge.a */,
+				546DD41B20F069A9006DACB8 /* librtc_base_generic.a */,
+				546DD41F20F069A9006DACB8 /* librtc_base.a */,
+				546DD41C20F069A9006DACB8 /* libwebrtc.a */,
 				546DD40C20F0626E006DACB8 /* UnityWebrtcPlugin */,
 				546DD40B20F0626E006DACB8 /* Products */,
+				546DD42520F06A20006DACB8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,6 +106,24 @@
 				546DD41920F06381006DACB8 /* Entry.hpp */,
 			);
 			path = UnityWebrtcPlugin;
+			sourceTree = "<group>";
+		};
+		546DD42520F06A20006DACB8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				546DD43A20F06A67006DACB8 /* CoreVideo.framework */,
+				546DD43820F06A5F006DACB8 /* CoreMedia.framework */,
+				546DD43620F06A59006DACB8 /* AVFoundation.framework */,
+				546DD43420F06A52006DACB8 /* CoreGraphics.framework */,
+				546DD43220F06A4B006DACB8 /* AudioToolbox.framework */,
+				546DD43020F06A43006DACB8 /* CoreAudio.framework */,
+				546DD42E20F06A3A006DACB8 /* Foundation.framework */,
+				546DD42C20F06A33006DACB8 /* CFNetwork.framework */,
+				546DD42A20F06A2D006DACB8 /* Security.framework */,
+				546DD42820F06A27006DACB8 /* OpenGL.framework */,
+				546DD42620F06A20006DACB8 /* Metal.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,8 +314,19 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = Products;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"NOGUI=1",
+					"OPENSSL_IS_BORINGSSL=1",
+					"WEBRTC_POSIX=1",
+					"WEBRTC_MAC=1",
+				);
+				HEADER_SEARCH_PATHS = "$(HOME)/Documents/gn/webrtc/src/";
 				INFOPLIST_FILE = UnityWebrtcPlugin/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ttProject.UnityWebrtcPlugin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -257,8 +340,19 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = Products;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"NOGUI=1",
+					"OPENSSL_IS_BORINGSSL=1",
+					"WEBRTC_POSIX=1",
+					"WEBRTC_MAC=1",
+				);
+				HEADER_SEARCH_PATHS = "$(HOME)/Documents/gn/webrtc/src/";
 				INFOPLIST_FILE = UnityWebrtcPlugin/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ttProject.UnityWebrtcPlugin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
