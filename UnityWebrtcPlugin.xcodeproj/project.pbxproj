@@ -30,6 +30,27 @@
 		546DD44D20F08E37006DACB8 /* TakMediaStream.mm in Sources */ = {isa = PBXBuildFile; fileRef = 546DD44B20F08E37006DACB8 /* TakMediaStream.mm */; };
 		546DD45020F09262006DACB8 /* TakPeerConnection.mm in Sources */ = {isa = PBXBuildFile; fileRef = 546DD44E20F09262006DACB8 /* TakPeerConnection.mm */; };
 		546DD45320F093C8006DACB8 /* TakDataChannel.mm in Sources */ = {isa = PBXBuildFile; fileRef = 546DD45120F093C8006DACB8 /* TakDataChannel.mm */; };
+		546DD53220F18385006DACB8 /* SRWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 546DD50020F18385006DACB8 /* SRWebSocket.m */; };
+		546DD53320F18385006DACB8 /* NSRunLoop+SRWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 546DD50120F18385006DACB8 /* NSRunLoop+SRWebSocket.m */; };
+		546DD53420F18385006DACB8 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 546DD50320F18385006DACB8 /* Info.plist */; };
+		546DD53520F18385006DACB8 /* SRSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 546DD50420F18385006DACB8 /* SRSecurityPolicy.m */; };
+		546DD53620F18385006DACB8 /* SRProxyConnect.m in Sources */ = {isa = PBXBuildFile; fileRef = 546DD50920F18385006DACB8 /* SRProxyConnect.m */; };
+		546DD53720F18385006DACB8 /* SRRunLoopThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 546DD50D20F18385006DACB8 /* SRRunLoopThread.m */; };
+		546DD53820F18385006DACB8 /* SRPinningSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 546DD51020F18385006DACB8 /* SRPinningSecurityPolicy.m */; };
+		546DD53920F18385006DACB8 /* SRDelegateController.m in Sources */ = {isa = PBXBuildFile; fileRef = 546DD51320F18385006DACB8 /* SRDelegateController.m */; };
+		546DD53A20F18385006DACB8 /* SRMutex.m in Sources */ = {isa = PBXBuildFile; fileRef = 546DD51920F18385006DACB8 /* SRMutex.m */; };
+		546DD53B20F18385006DACB8 /* SRHTTPConnectMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 546DD51A20F18385006DACB8 /* SRHTTPConnectMessage.m */; };
+		546DD53C20F18385006DACB8 /* SRURLUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 546DD51D20F18385006DACB8 /* SRURLUtilities.m */; };
+		546DD53D20F18385006DACB8 /* SRLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 546DD51F20F18385006DACB8 /* SRLog.m */; };
+		546DD53E20F18385006DACB8 /* SRHash.m in Sources */ = {isa = PBXBuildFile; fileRef = 546DD52020F18385006DACB8 /* SRHash.m */; };
+		546DD53F20F18385006DACB8 /* SRError.m in Sources */ = {isa = PBXBuildFile; fileRef = 546DD52320F18385006DACB8 /* SRError.m */; };
+		546DD54020F18385006DACB8 /* SRRandom.m in Sources */ = {isa = PBXBuildFile; fileRef = 546DD52420F18385006DACB8 /* SRRandom.m */; };
+		546DD54120F18385006DACB8 /* SRSIMDHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 546DD52620F18385006DACB8 /* SRSIMDHelpers.m */; };
+		546DD54220F18385006DACB8 /* SRIOConsumer.m in Sources */ = {isa = PBXBuildFile; fileRef = 546DD52920F18385006DACB8 /* SRIOConsumer.m */; };
+		546DD54320F18385006DACB8 /* SRIOConsumerPool.m in Sources */ = {isa = PBXBuildFile; fileRef = 546DD52B20F18385006DACB8 /* SRIOConsumerPool.m */; };
+		546DD54420F18385006DACB8 /* SRConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 546DD52C20F18385006DACB8 /* SRConstants.m */; };
+		546DD54520F18385006DACB8 /* NSURLRequest+SRWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 546DD53120F18385006DACB8 /* NSURLRequest+SRWebSocket.m */; };
+		546DD54820F18393006DACB8 /* TakWebsocket.mm in Sources */ = {isa = PBXBuildFile; fileRef = 546DD54620F18393006DACB8 /* TakWebsocket.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,6 +86,50 @@
 		546DD44F20F09262006DACB8 /* TakPeerConnection.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TakPeerConnection.hpp; sourceTree = "<group>"; };
 		546DD45120F093C8006DACB8 /* TakDataChannel.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = TakDataChannel.mm; sourceTree = "<group>"; };
 		546DD45220F093C8006DACB8 /* TakDataChannel.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TakDataChannel.hpp; sourceTree = "<group>"; };
+		546DD50020F18385006DACB8 /* SRWebSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRWebSocket.m; sourceTree = "<group>"; };
+		546DD50120F18385006DACB8 /* NSRunLoop+SRWebSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSRunLoop+SRWebSocket.m"; sourceTree = "<group>"; };
+		546DD50320F18385006DACB8 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		546DD50420F18385006DACB8 /* SRSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRSecurityPolicy.m; sourceTree = "<group>"; };
+		546DD50520F18385006DACB8 /* SocketRocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocketRocket.h; sourceTree = "<group>"; };
+		546DD50720F18385006DACB8 /* SRConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRConstants.h; sourceTree = "<group>"; };
+		546DD50920F18385006DACB8 /* SRProxyConnect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRProxyConnect.m; sourceTree = "<group>"; };
+		546DD50A20F18385006DACB8 /* SRProxyConnect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRProxyConnect.h; sourceTree = "<group>"; };
+		546DD50C20F18385006DACB8 /* SRRunLoopThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRRunLoopThread.h; sourceTree = "<group>"; };
+		546DD50D20F18385006DACB8 /* SRRunLoopThread.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRRunLoopThread.m; sourceTree = "<group>"; };
+		546DD50F20F18385006DACB8 /* SRPinningSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRPinningSecurityPolicy.h; sourceTree = "<group>"; };
+		546DD51020F18385006DACB8 /* SRPinningSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRPinningSecurityPolicy.m; sourceTree = "<group>"; };
+		546DD51120F18385006DACB8 /* NSRunLoop+SRWebSocketPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSRunLoop+SRWebSocketPrivate.h"; sourceTree = "<group>"; };
+		546DD51320F18385006DACB8 /* SRDelegateController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRDelegateController.m; sourceTree = "<group>"; };
+		546DD51420F18385006DACB8 /* SRDelegateController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRDelegateController.h; sourceTree = "<group>"; };
+		546DD51520F18385006DACB8 /* NSURLRequest+SRWebSocketPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLRequest+SRWebSocketPrivate.h"; sourceTree = "<group>"; };
+		546DD51720F18385006DACB8 /* SRHash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRHash.h; sourceTree = "<group>"; };
+		546DD51820F18385006DACB8 /* SRLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRLog.h; sourceTree = "<group>"; };
+		546DD51920F18385006DACB8 /* SRMutex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRMutex.m; sourceTree = "<group>"; };
+		546DD51A20F18385006DACB8 /* SRHTTPConnectMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRHTTPConnectMessage.m; sourceTree = "<group>"; };
+		546DD51B20F18385006DACB8 /* SRSIMDHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRSIMDHelpers.h; sourceTree = "<group>"; };
+		546DD51C20F18385006DACB8 /* SRRandom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRRandom.h; sourceTree = "<group>"; };
+		546DD51D20F18385006DACB8 /* SRURLUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRURLUtilities.m; sourceTree = "<group>"; };
+		546DD51E20F18385006DACB8 /* SRError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRError.h; sourceTree = "<group>"; };
+		546DD51F20F18385006DACB8 /* SRLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRLog.m; sourceTree = "<group>"; };
+		546DD52020F18385006DACB8 /* SRHash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRHash.m; sourceTree = "<group>"; };
+		546DD52120F18385006DACB8 /* SRMutex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRMutex.h; sourceTree = "<group>"; };
+		546DD52220F18385006DACB8 /* SRHTTPConnectMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRHTTPConnectMessage.h; sourceTree = "<group>"; };
+		546DD52320F18385006DACB8 /* SRError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRError.m; sourceTree = "<group>"; };
+		546DD52420F18385006DACB8 /* SRRandom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRRandom.m; sourceTree = "<group>"; };
+		546DD52520F18385006DACB8 /* SRURLUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRURLUtilities.h; sourceTree = "<group>"; };
+		546DD52620F18385006DACB8 /* SRSIMDHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRSIMDHelpers.m; sourceTree = "<group>"; };
+		546DD52820F18385006DACB8 /* SRIOConsumerPool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRIOConsumerPool.h; sourceTree = "<group>"; };
+		546DD52920F18385006DACB8 /* SRIOConsumer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRIOConsumer.m; sourceTree = "<group>"; };
+		546DD52A20F18385006DACB8 /* SRIOConsumer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRIOConsumer.h; sourceTree = "<group>"; };
+		546DD52B20F18385006DACB8 /* SRIOConsumerPool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRIOConsumerPool.m; sourceTree = "<group>"; };
+		546DD52C20F18385006DACB8 /* SRConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRConstants.m; sourceTree = "<group>"; };
+		546DD52D20F18385006DACB8 /* NSURLRequest+SRWebSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLRequest+SRWebSocket.h"; sourceTree = "<group>"; };
+		546DD52E20F18385006DACB8 /* SRWebSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRWebSocket.h; sourceTree = "<group>"; };
+		546DD52F20F18385006DACB8 /* NSRunLoop+SRWebSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSRunLoop+SRWebSocket.h"; sourceTree = "<group>"; };
+		546DD53020F18385006DACB8 /* SRSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRSecurityPolicy.h; sourceTree = "<group>"; };
+		546DD53120F18385006DACB8 /* NSURLRequest+SRWebSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLRequest+SRWebSocket.m"; sourceTree = "<group>"; };
+		546DD54620F18393006DACB8 /* TakWebsocket.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = TakWebsocket.mm; sourceTree = "<group>"; };
+		546DD54720F18393006DACB8 /* TakWebsocket.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TakWebsocket.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +184,7 @@
 		546DD40C20F0626E006DACB8 /* UnityWebrtcPlugin */ = {
 			isa = PBXGroup;
 			children = (
+				546DD4FF20F18385006DACB8 /* SocketRocket */,
 				546DD40D20F0626E006DACB8 /* Info.plist */,
 				546DD41820F06381006DACB8 /* Entry.mm */,
 				546DD41920F06381006DACB8 /* Entry.hpp */,
@@ -134,6 +200,8 @@
 				546DD44F20F09262006DACB8 /* TakPeerConnection.hpp */,
 				546DD45120F093C8006DACB8 /* TakDataChannel.mm */,
 				546DD45220F093C8006DACB8 /* TakDataChannel.hpp */,
+				546DD54620F18393006DACB8 /* TakWebsocket.mm */,
+				546DD54720F18393006DACB8 /* TakWebsocket.hpp */,
 			);
 			path = UnityWebrtcPlugin;
 			sourceTree = "<group>";
@@ -154,6 +222,119 @@
 				546DD42620F06A20006DACB8 /* Metal.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		546DD4FF20F18385006DACB8 /* SocketRocket */ = {
+			isa = PBXGroup;
+			children = (
+				546DD50020F18385006DACB8 /* SRWebSocket.m */,
+				546DD50120F18385006DACB8 /* NSRunLoop+SRWebSocket.m */,
+				546DD50220F18385006DACB8 /* Resources */,
+				546DD50420F18385006DACB8 /* SRSecurityPolicy.m */,
+				546DD50520F18385006DACB8 /* SocketRocket.h */,
+				546DD50620F18385006DACB8 /* Internal */,
+				546DD52D20F18385006DACB8 /* NSURLRequest+SRWebSocket.h */,
+				546DD52E20F18385006DACB8 /* SRWebSocket.h */,
+				546DD52F20F18385006DACB8 /* NSRunLoop+SRWebSocket.h */,
+				546DD53020F18385006DACB8 /* SRSecurityPolicy.h */,
+				546DD53120F18385006DACB8 /* NSURLRequest+SRWebSocket.m */,
+			);
+			path = SocketRocket;
+			sourceTree = "<group>";
+		};
+		546DD50220F18385006DACB8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				546DD50320F18385006DACB8 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		546DD50620F18385006DACB8 /* Internal */ = {
+			isa = PBXGroup;
+			children = (
+				546DD50720F18385006DACB8 /* SRConstants.h */,
+				546DD50820F18385006DACB8 /* Proxy */,
+				546DD50B20F18385006DACB8 /* RunLoop */,
+				546DD50E20F18385006DACB8 /* Security */,
+				546DD51120F18385006DACB8 /* NSRunLoop+SRWebSocketPrivate.h */,
+				546DD51220F18385006DACB8 /* Delegate */,
+				546DD51520F18385006DACB8 /* NSURLRequest+SRWebSocketPrivate.h */,
+				546DD51620F18385006DACB8 /* Utilities */,
+				546DD52720F18385006DACB8 /* IOConsumer */,
+				546DD52C20F18385006DACB8 /* SRConstants.m */,
+			);
+			path = Internal;
+			sourceTree = "<group>";
+		};
+		546DD50820F18385006DACB8 /* Proxy */ = {
+			isa = PBXGroup;
+			children = (
+				546DD50920F18385006DACB8 /* SRProxyConnect.m */,
+				546DD50A20F18385006DACB8 /* SRProxyConnect.h */,
+			);
+			path = Proxy;
+			sourceTree = "<group>";
+		};
+		546DD50B20F18385006DACB8 /* RunLoop */ = {
+			isa = PBXGroup;
+			children = (
+				546DD50C20F18385006DACB8 /* SRRunLoopThread.h */,
+				546DD50D20F18385006DACB8 /* SRRunLoopThread.m */,
+			);
+			path = RunLoop;
+			sourceTree = "<group>";
+		};
+		546DD50E20F18385006DACB8 /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				546DD50F20F18385006DACB8 /* SRPinningSecurityPolicy.h */,
+				546DD51020F18385006DACB8 /* SRPinningSecurityPolicy.m */,
+			);
+			path = Security;
+			sourceTree = "<group>";
+		};
+		546DD51220F18385006DACB8 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				546DD51320F18385006DACB8 /* SRDelegateController.m */,
+				546DD51420F18385006DACB8 /* SRDelegateController.h */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		546DD51620F18385006DACB8 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				546DD51720F18385006DACB8 /* SRHash.h */,
+				546DD51820F18385006DACB8 /* SRLog.h */,
+				546DD51920F18385006DACB8 /* SRMutex.m */,
+				546DD51A20F18385006DACB8 /* SRHTTPConnectMessage.m */,
+				546DD51B20F18385006DACB8 /* SRSIMDHelpers.h */,
+				546DD51C20F18385006DACB8 /* SRRandom.h */,
+				546DD51D20F18385006DACB8 /* SRURLUtilities.m */,
+				546DD51E20F18385006DACB8 /* SRError.h */,
+				546DD51F20F18385006DACB8 /* SRLog.m */,
+				546DD52020F18385006DACB8 /* SRHash.m */,
+				546DD52120F18385006DACB8 /* SRMutex.h */,
+				546DD52220F18385006DACB8 /* SRHTTPConnectMessage.h */,
+				546DD52320F18385006DACB8 /* SRError.m */,
+				546DD52420F18385006DACB8 /* SRRandom.m */,
+				546DD52520F18385006DACB8 /* SRURLUtilities.h */,
+				546DD52620F18385006DACB8 /* SRSIMDHelpers.m */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		546DD52720F18385006DACB8 /* IOConsumer */ = {
+			isa = PBXGroup;
+			children = (
+				546DD52820F18385006DACB8 /* SRIOConsumerPool.h */,
+				546DD52920F18385006DACB8 /* SRIOConsumer.m */,
+				546DD52A20F18385006DACB8 /* SRIOConsumer.h */,
+				546DD52B20F18385006DACB8 /* SRIOConsumerPool.m */,
+			);
+			path = IOConsumer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,6 +393,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				546DD53420F18385006DACB8 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,13 +404,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				546DD53A20F18385006DACB8 /* SRMutex.m in Sources */,
+				546DD54420F18385006DACB8 /* SRConstants.m in Sources */,
+				546DD54120F18385006DACB8 /* SRSIMDHelpers.m in Sources */,
+				546DD53620F18385006DACB8 /* SRProxyConnect.m in Sources */,
 				546DD44420F083ED006DACB8 /* TakIceServer.mm in Sources */,
+				546DD53320F18385006DACB8 /* NSRunLoop+SRWebSocket.m in Sources */,
 				546DD41A20F06381006DACB8 /* Entry.mm in Sources */,
+				546DD53B20F18385006DACB8 /* SRHTTPConnectMessage.m in Sources */,
 				546DD45020F09262006DACB8 /* TakPeerConnection.mm in Sources */,
+				546DD53F20F18385006DACB8 /* SRError.m in Sources */,
+				546DD53520F18385006DACB8 /* SRSecurityPolicy.m in Sources */,
 				546DD44120F081A7006DACB8 /* TakPeerConnectionFactory.mm in Sources */,
+				546DD53D20F18385006DACB8 /* SRLog.m in Sources */,
+				546DD54520F18385006DACB8 /* NSURLRequest+SRWebSocket.m in Sources */,
+				546DD54220F18385006DACB8 /* SRIOConsumer.m in Sources */,
+				546DD53220F18385006DACB8 /* SRWebSocket.m in Sources */,
+				546DD53E20F18385006DACB8 /* SRHash.m in Sources */,
+				546DD53720F18385006DACB8 /* SRRunLoopThread.m in Sources */,
+				546DD54320F18385006DACB8 /* SRIOConsumerPool.m in Sources */,
+				546DD54020F18385006DACB8 /* SRRandom.m in Sources */,
+				546DD54820F18393006DACB8 /* TakWebsocket.mm in Sources */,
 				546DD45320F093C8006DACB8 /* TakDataChannel.mm in Sources */,
 				546DD44D20F08E37006DACB8 /* TakMediaStream.mm in Sources */,
+				546DD53820F18385006DACB8 /* SRPinningSecurityPolicy.m in Sources */,
+				546DD53C20F18385006DACB8 /* SRURLUtilities.m in Sources */,
 				546DD44720F085C1006DACB8 /* TakConstraint.mm in Sources */,
+				546DD53920F18385006DACB8 /* SRDelegateController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

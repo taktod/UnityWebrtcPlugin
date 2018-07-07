@@ -12,6 +12,7 @@
 #include "TakPeerConnectionFactory.hpp"
 #include "TakPeerConnection.hpp"
 #include "TakIceServer.hpp"
+#include "TakWebsocket.hpp"
 
 using namespace std;
 
@@ -45,8 +46,14 @@ extern "C" {
     }
     void takWebrtc_make() {
         cout << "make is called" << endl;
+        TakWebsocket *socket = new TakWebsocket("ws://echo.websocket.org");
+        socket->onConnect = [socket](){
+            socket->send("hogehoge");
+        };
+        socket->connect();
+        // とりあえずwebsocketの動作テストしてみるか・・・
         TakWebrtc::initialize();
-        // とりあえずPeerConnectionでもつくってみようとおもう。
+/*        // とりあえずPeerConnectionでもつくってみようとおもう。
         TakIceServer server = TakIceServer("stun:stun.l.google.com:19302", "", "");
         TakIceServer *lps = &server;
         
@@ -66,7 +73,7 @@ extern "C" {
             string str;
             sdp->ToString(&str);
             cout << str << endl;
-        });
+        });*/
     }
     void takWebrtc_clean() {
         cout << "clean is called" << endl;
