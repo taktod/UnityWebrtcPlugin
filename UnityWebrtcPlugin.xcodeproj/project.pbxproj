@@ -6,9 +6,15 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		546DD41A20F06381006DACB8 /* Entry.mm in Sources */ = {isa = PBXBuildFile; fileRef = 546DD41820F06381006DACB8 /* Entry.mm */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		546DD40A20F0626E006DACB8 /* UnityWebrtcPlugin.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnityWebrtcPlugin.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		546DD40D20F0626E006DACB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		546DD41820F06381006DACB8 /* Entry.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = Entry.mm; sourceTree = "<group>"; };
+		546DD41920F06381006DACB8 /* Entry.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Entry.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +48,8 @@
 			isa = PBXGroup;
 			children = (
 				546DD40D20F0626E006DACB8 /* Info.plist */,
+				546DD41820F06381006DACB8 /* Entry.mm */,
+				546DD41920F06381006DACB8 /* Entry.hpp */,
 			);
 			path = UnityWebrtcPlugin;
 			sourceTree = "<group>";
@@ -112,6 +120,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				546DD41A20F06381006DACB8 /* Entry.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,6 +241,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = Products;
 				INFOPLIST_FILE = UnityWebrtcPlugin/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ttProject.UnityWebrtcPlugin;
@@ -246,6 +256,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = Products;
 				INFOPLIST_FILE = UnityWebrtcPlugin/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ttProject.UnityWebrtcPlugin;
