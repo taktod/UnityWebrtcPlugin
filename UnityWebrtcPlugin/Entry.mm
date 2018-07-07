@@ -10,6 +10,8 @@
 #include <iostream>
 #import <Foundation/Foundation.h>
 #include "TakPeerConnectionFactory.hpp"
+#include "TakPeerConnection.hpp"
+#include "TakIceServer.hpp"
 
 using namespace std;
 
@@ -44,6 +46,23 @@ extern "C" {
     void takWebrtc_make() {
         cout << "make is called" << endl;
         TakWebrtc::initialize();
+        // とりあえずPeerConnectionでもつくってみようとおもう。
+        TakIceServer server = TakIceServer("stun:stun.l.google.com:19302", "", "");
+        TakIceServer *lps = &server;
+        
+        TakPeerConnection *conn = new TakPeerConnection(_factory, &lps, 1);
+        conn->onIceCandidate = [](const IceCandidateInterface *candidate) {
+            // candidateの応答
+        };
+        TakConstraint constraint;
+        constraint.AddMandatory("OfferToReceiveAudio", "true");
+        constraint.AddMandatory("OfferToReceiveVideo", "true");
+        conn->createOffer(&constraint, [conn](SessionDescriptionInterface *sdp) {
+            cout << "sdpができてる" << endl;
+            string str;
+            sdp->ToString(&str);
+            cout << str << endl;
+        });
     }
     void takWebrtc_clean() {
         cout << "clean is called" << endl;

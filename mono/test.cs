@@ -10,6 +10,7 @@ public class Test {
   static extern void takWebrtc_dispatchMain();
   static public void Main() {
     takWebrtc_make();
+    takWebrtc_dispatchMain();
     takWebrtc_clean();
     Console.WriteLine("処理おわり");
   }
