@@ -22,10 +22,7 @@ TakDataChannel::TakDataChannel(
     init.reliable = isReliable;
     if(conn->refNativeConnection() != nullptr && conn->refNativeConnection().get() != nullptr) {
         _dataChannel = conn->refNativeConnection()->CreateDataChannel(label, &init);
-        if(_dataChannel.get() == nullptr) {
-            
-        }
-        else {
+        if(_dataChannel.get() != nullptr) {
             _dataChannel->RegisterObserver(this);
         }
     }

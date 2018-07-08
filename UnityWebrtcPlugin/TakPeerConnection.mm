@@ -48,9 +48,11 @@ TakPeerConnection::~TakPeerConnection() {
 }
 
 void TakPeerConnection::OnDataChannel(rtc::scoped_refptr<DataChannelInterface> data_channel) {
+    cout << "remoteからdataChannelきた" << endl;
 }
 
 void TakPeerConnection::OnAddStream(rtc::scoped_refptr<MediaStreamInterface> istream) {
+//    cout << "remoteからaddStreamきた" << endl;
 }
 
 void TakPeerConnection::OnRemoveStream(rtc::scoped_refptr<MediaStreamInterface> istream) {
@@ -86,6 +88,10 @@ void TakPeerConnection::setLocalDescription(SessionDescriptionInterface *sdp) {
 void TakPeerConnection::setRemoteDescription(string type, string value) {
     SdpParseError error;
     SessionDescriptionInterface *sdp = CreateSessionDescription(type, value, &error);
+    if(error.line != "" || error.description != "") {
+        cout << error.line << endl;
+        cout << error.description << endl;
+    }
     _nativeConnection->SetRemoteDescription(_setSdpObserver, sdp);
 }
 void TakPeerConnection::addIceCandidate(string candidate, string sdpMid, int sdpMLineIndex) {

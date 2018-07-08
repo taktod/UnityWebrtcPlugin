@@ -47,54 +47,7 @@ using namespace takWebrtc;
     if(_socket->onMessage != nullptr) {
         _socket->onMessage([message UTF8String]);
     }
-/*    NSData *data = [message dataUsingEncoding:NSUTF8StringEncoding];
-    NSDictionary *jsonObj = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableContainers error:nil];
-    @try {
-        if(_signaling->getMyId() == "") {
-            _signaling->setMyId([[jsonObj[@"self"] stringValue] UTF8String]);
-            _signaling->onConnect(jsonObj);
-        }
-        else {
-            NSDictionary *dic = @{
-                @"sdp": ^(){
-                    if(self->_signaling->onSdp != nullptr) {
-                        self->_signaling->onSdp(jsonObj);
-                    }
-                },
-                @"sdpWithIce": ^(){
-                    if(self->_signaling->onSdpWithIce != nullptr) {
-                        self->_signaling->onSdpWithIce(jsonObj);
-                    }
-                },
-                @"sdpAnswer": ^(){
-                    if(self->_signaling->onSdpAnswer != nullptr) {
-                        self->_signaling->onSdpAnswer(jsonObj);
-                    }
-                },
-                @"sdpAnswerWithIce": ^(){
-                    if(self->_signaling->onSdpAnswerWithIce != nullptr) {
-                        self->_signaling->onSdpAnswerWithIce(jsonObj);
-                    }
-                },
-                @"candidate": ^(){
-                    if(self->_signaling->onCandidate != nullptr) {
-                        self->_signaling->onCandidate(jsonObj);
-                    }
-                },
-                @"disconnect": ^(){
-                    if(self->_signaling->onDisconnect != nullptr) {
-                        self->_signaling->onDisconnect(jsonObj);
-                    }
-                }};
-            void (^exec)() = dic[jsonObj[@"type"]];
-            if(exec != nil) {
-                exec();
-            }
-        }
-    }
-    @catch(NSException *e) {
-        
-    }*/
+    
 }
 
 - (void)send:(NSString *) data {
@@ -110,5 +63,6 @@ void TakWebsocket::connect() {
 }
 
 void TakWebsocket::send(string data) {
+//    cout << "wsSend:" << data << endl;
     [_base send:@(data.c_str())];
 }
