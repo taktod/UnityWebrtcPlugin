@@ -50,6 +50,9 @@ extern "C" {
         socket->onConnect = [socket](){
             socket->send("hogehoge");
         };
+        socket->onMessage = [](string message) {
+            cout << message << " is received" << endl;
+        };
         socket->connect();
         // とりあえずwebsocketの動作テストしてみるか・・・
         TakWebrtc::initialize();

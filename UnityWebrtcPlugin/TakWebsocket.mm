@@ -44,8 +44,9 @@ using namespace takWebrtc;
     }
 }
 - (void)webSocket:(SRWebSocket *)webSocket didReceiveMessage:(id)message {
-    // ここで色々しなければならないわけだが・・・
-    NSLog(@"%@", message);
+    if(_socket->onMessage != nullptr) {
+        _socket->onMessage([message UTF8String]);
+    }
 /*    NSData *data = [message dataUsingEncoding:NSUTF8StringEncoding];
     NSDictionary *jsonObj = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableContainers error:nil];
     @try {
